@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editActor"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="8"
+        android:hint="@string/actor_name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#757575"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/role"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minWidth="48dp"
+        android:textColorHint="#757575" />
+
+    <ImageView
+        android:id="@+id/removeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/remove"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+
+</LinearLayout>
